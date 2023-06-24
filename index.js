@@ -1,8 +1,8 @@
 import express from "express";
 const app = express();
 import cors from "cors";
-import { pool } from "./src/db.js";
-import { PORT } from "./src/config.js";
+import { pool } from "src/db.js";
+import { PORT } from "src/config.js";
 
 app.use(cors());
 app.use(express.json());
